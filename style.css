@@ -154,6 +154,78 @@
     .name3 img{
         width: 100%;
     }
+    .tourdates{
+        width: 100%;
+        height: auto;
+        background-color: yellowgreen;
+        overflow: hidden;
+        padding: 40px;
+        
+    }
+    .month{
+        margin-bottom: 20px;
+    }
+    .tour h2{
+        text-align: center;
+    }
+    .tour p{
+        text-align: center;
+    }
+    
+    .sept{
+        width: 100%;
+        border: 1px solid black;
+        padding: 10px 12px;
+    }
+    .sept button,.oct button{
+        background-color: red;
+        color: white;
+        padding: 5px;
+    }
+    .nov button{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: red;
+        color: white;
+        float: right;
+       
+    }
+    
+    .newyork,.paris,.sanfranciso{
+        width: 33.33%;
+        float: left;
+    }
+    .newyork img, .newyork text{
+        width: 100%;
+    }
+    .paris img, .paris text{
+        width: 100%;
+    }
+    .sanfranciso img, .sanfranciso text{
+        width: 100%;
+    }
+
+
+    
+
+    .oct{
+        width: 100%;
+        border: 1px solid black;
+        padding: 10px 12px;
+    }
+    .nov{
+        width: 100%;
+        border: 1px solid black;
+        padding: 10px 12px;
+    }
+    
+    .text{
+        padding: 5px;
+        float: left;
+    }
+
+
     .contract{
         width: 100%;
         height: auto;
