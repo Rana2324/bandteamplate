@@ -128,6 +128,7 @@
         text-align: center;
         margin-bottom: 10px;
     }
+
     
     .name1{
         width: 30%;
@@ -153,6 +154,69 @@
     .name3 img{
         width: 100%;
     }
+    .contract{
+        width: 100%;
+        height: auto;
+        padding: 40px;
+        overflow: hidden;
+        background-color: violet;
+    }
+    .contracttext{
+        padding: 20px;
+    }
+    .contracttext h1{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .contracttext p{
+        text-align: center;
+    }
+    .location{
+        width: 50%;
+        float: left;
+    }
+    .location a{
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+    }
+    .location a i{
+        padding-right: 10px;
+    }
+    .from{
+        width: 50%;
+        float: left;
+    }
+    .nameemail{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .nameemail input[type=text]{
+        width: 48%;
+        float: left;
+        padding: 5px;
+        margin-right:4%;
+    }
+    .nameemail input[type=email]{
+        width: 48%;
+        float: left;
+        padding: 5px;
+    }
+    .massage input[type=text]{
+        width: 100%;
+        float: left;
+        padding: 5px;
+        margin: 10px 0;
+    }
+    .sendbt button{
+        float: right;
+        padding: 5px;
+    }
+    .sendbt button:hover{
+        background-color: teal;
+        color: yellow;
+    }
+
 
     .map{
         width: 100%;
