@@ -340,6 +340,18 @@
         text-decoration: underline;
         
     }
+    @media only screen and (max-width:480px){
+        .col{
+            width: 100%;
+        }
+        .name1,.name2,.name3{
+            width: 100%;
+        }
+        .newyork,.paris,.sanfranciso{
+            width: 100%;
+        }
+    }
+
 
 
       
