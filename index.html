@@ -8,14 +8,19 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="navbar">
+    <input type="checkbox" id="check">
+    <div class="navbar" >
+        <label class="bar" for="check"><i class="fas fa-bars"
+        ></i></label>
+        <label class="time" for="check"><i class="fas fa-times"
+            ></i></label>
         <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">BAND</a></li>
-            <li><a href="#">TOUR</a></li>
-            <li><a href="#">CONTAC</a></li>
+            <li><a href="#slidebar">HOME</a></li>
+            <li><a href="#band">BAND</a></li>
+            <li><a href="#tour">TOUR</a></li>
+            <li><a href="#contract">CONTAC</a></li>
             <li class="dropdown">
-                <a href="#" class="dropbtn">MORE</a>
+                <a href="#map" class="dropbtn">MORE</a>
 
                 <div class="dropdown-content">
                     <a href="#">Merchandise</a>
@@ -24,17 +29,17 @@
                 </div>
             </li>
 
-            <a href="#"><i class="fas fa-search"></i></a>
+            <a class="bt" href="#"><i class="fas fa-search"></i></a>
         </ul>
     </div>
-    <div class="container">
+    <div class="container"id="slidebar">
         <div class="slidebox">
             <img src="/image/chicago.jpg 1 - Copy.jpg" >
             <img src="/image/ny.jpg 3.jpg">
             <img src="/image/la.jpg 2.jpg"> 
         </div>
     </div>
-    <div class="theband">
+    <div class="theband" id="band">
         <div class="bandtext col">
             <h2>THE BAND</h2>
             <p class="lovemusic">We love music</p>
@@ -52,7 +57,7 @@
             </div>
         </div>
     </div>
-    <div class="tourdates">
+    <div class="tourdates" id="tour">
         <div class="tour col">
             <h2>TOUR DATES</h2>
             <p>Remember to book your tickets!</p>
@@ -106,7 +111,7 @@
             </div>
         </div>
     </div>
-    <div class="contract">
+    <div class="contract" id="contract">
         <div class="contracttext col">
             <h1>CONTACT</h1>
             <p>Fan? Drop a note!</p>
@@ -132,7 +137,7 @@
            </div>
         </div>
     </div>
-    <div class="map">
+    <div class="map" id="map">
         <img src="/image/map.jpg">
     </div>
     <div class="footer">
